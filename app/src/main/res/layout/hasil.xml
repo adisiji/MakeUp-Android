@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textAtas7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:background="#2c68ac"/>
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Berikut adalah make-up yang dapat Anda terapkan"
+    android:layout_gravity="center_horizontal"
+    android:textSize="16sp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:layout_marginTop="15dp">
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:layout_weight="5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Warna Kulit Wajah"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/sWarna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Error !!!"/>
+        </LinearLayout>
+        <View
+            style="@style/Divider" >
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Bentuk Wajah"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/sWajah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Error !!!"/>
+        </LinearLayout>
+        <View
+            style="@style/Divider" >
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Hidung"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/sHidung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Error !!!"/>
+        </LinearLayout>
+        <View
+            style="@style/Divider" >
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Bibir"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/sBibir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Error !!!"/>
+        </LinearLayout>
+        <View
+            style="@style/Divider" >
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Mata"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/sMata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Error !!!"/>
+        </LinearLayout>
+        <View
+            style="@style/Divider" >
+        </View>
+    </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+    android:weightSum="10"
+    android:layout_gravity="bottom">
+
+<Button
+    android:id="@+id/buttonPrev7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="|&lt; AWAL" />
+<Space
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"/>
+<Button
+    android:id="@+id/buttonKeluar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Keluar" />
+<Space
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+</LinearLayout>
+</LinearLayout>

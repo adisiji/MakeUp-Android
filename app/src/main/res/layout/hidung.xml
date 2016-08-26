@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textAtas4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bentuk Hidung"
+        android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:background="#e0e4cc"/>
+
+    <TextView
+        android:id="@+id/textViewSoal4"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana bentuk hidung Anda ?"
+        android:layout_below="@id/textAtas4"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <worker8.com.github.radiogroupplus.RadioGroupPlus
+        android:id="@+id/radioGroup4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewSoal4"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendek"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hidung_pendek"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panjang"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hidung_panjang"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lebar"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hidung_lebar"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bengkok"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hidung_bengkok"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </worker8.com.github.radiogroupplus.RadioGroupPlus>
+
+    <Button
+        android:id="@+id/buttonPrev4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="&lt;&lt;  PREV" />
+
+    <Button
+        android:id="@+id/buttonNext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="NEXT >>" />
+
+
+</RelativeLayout>

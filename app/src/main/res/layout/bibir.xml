@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textAtas5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bentuk Bibir"
+        android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:background="#f38731"/>
+
+    <TextView
+        android:id="@+id/textViewSoal5"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana bentuk bibir Anda ?"
+        android:layout_below="@id/textAtas5"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@id/textViewSoal5">
+
+        <RadioButton
+            android:id="@+id/radio50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Penuh" />
+
+        <RadioButton
+            android:id="@+id/radio51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipis" />
+
+        <RadioButton
+            android:id="@+id/radio52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mungil" />
+
+        <RadioButton
+            android:id="@+id/radio53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berujung Turun" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonPrev5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="&lt;&lt;  PREV" />
+
+    <Button
+        android:id="@+id/buttonNext5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="NEXT >>" />
+
+
+</RelativeLayout>

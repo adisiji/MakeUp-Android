@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/textAtas3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Bentuk Wajah"
+    android:textSize="24dp"
+    android:paddingTop="10dp"
+
+    android:paddingBottom="10dp"
+    android:gravity="center_horizontal"
+    android:background="#a8dbdb"/>
+
+    <TextView
+        android:id="@+id/textViewSoal"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana bentuk wajah Anda ?"
+        android:layout_below="@id/textAtas3"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <worker8.com.github.radiogroupplus.RadioGroupPlus
+        android:id="@+id/radioGroup3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_below="@id/textViewSoal">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panjang"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/wjh_panjang"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotak"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/wjh_kotak"
+            android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Segitiga / Bentuk Hati"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/wjh_segitiga"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </worker8.com.github.radiogroupplus.RadioGroupPlus>
+
+    <TextView
+        android:id="@+id/testabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/radioGroup1"/>
+
+    <Button
+        android:id="@+id/buttonPrev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="&lt;&lt;  PREV" />
+
+    <Button
+        android:id="@+id/buttonNext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="NEXT >>" />
+
+
+</RelativeLayout>
